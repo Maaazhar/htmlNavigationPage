@@ -1,0 +1,173 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: content-box;
+}
+body
+{
+	background-image: url(a.jpg);
+	background-size: 100% 790px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.heading
+{
+	background-color: rgba(0,0,0,0.4);
+	font-family: Parchment ;
+	font-size: 150px;
+	color: palegreen;
+	text-align: center;
+	text-shadow: 2px 1px black;
+}
+.heading:hover
+{
+	background-color: rgba(0,0,0,0.7);
+	color: lightgray;
+	border-radius: 8px;
+}
+.headline
+{
+	background-color: rgba(0,0,0,0.4);
+	font-family: Colonna MT ;
+	font-size: 70px;
+	color: skyblue;
+	text-align: center;
+	text-shadow: 2px 1px black;	
+	margin-top: 5px;
+}
+.headline:hover
+{
+	background-color: rgba(0,0,0,0.7);
+	color: violet;
+	border-radius: 8px;
+}
+.menu ul li
+{
+	list-style-type: none;
+	float: left;
+	font-family: Comic Sans MS ;
+	font-size: 30px;
+	height: 50px;
+	line-height: 50px;
+	color: palegreen;
+	text-shadow: 2px 1px black;
+	border-bottom-style: outset;
+	border-bottom: 1px solid rgba(0,0,0,0.2); 
+	border-top: 1px solid rgba(0,0,0,0.2); 
+	width: 269px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	margin-bottom: 1px;
+
+}
+.menu button
+{
+	list-style-type: none;
+	float: left;
+	font-family: Comic Sans MS ;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	color: palegreen;
+	border: none;
+	text-shadow: 2px 1px black;
+	border-bottom: 1px solid rgba(0,0,0,0.2); 
+	border-top: 1px solid rgba(0,0,0,0.2); 
+	width: 266px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	margin-left: 3px;
+
+}
+.menu ul li:hover
+{
+	background-color: rgba(0,0,0,0.7);
+	color: tomato;
+	border-radius: 5px;
+
+}
+.menu ul ul li
+{
+	font-size: 25px;
+}
+.menu ul ul
+{
+	display: none;
+}
+.menu ul li:hover ul
+{
+	display:block;
+}
+img
+{
+	width: 600px;
+	height: 400px;
+}
+.a
+{
+	border: 4px solid skyblue;
+}
+.a:hover
+{
+	border: 4px solid violet;
+}
+.a img
+{
+	width: 100%;
+	height: auto;
+}
+.desc
+{
+	padding: 20px;
+	text-align: center;
+	font-family: papyrus;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: lightgray;
+	text-shadow: 2px 1px black;
+	background-color: rgb(0,0,0,0.4);
+}
+.responsive
+{
+	padding: 0 6px;
+	float: left;
+	width: 24.9999%;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+@media only screen and (max-width: 700px)
+{
+	.responsive
+	{
+		width: 49.9999%;
+		margin: 6px 0;
+	}
+}
+@media only screen and (max-width: 500px)
+{
+	.responsive
+	{
+		width: 100%;
+		
+	}
+}
+.clearfix:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+footer
+{
+	font-size: 200%;
+	font-family: papyrus;
+	color: gray;
+	margin-top: 750px;
+}
+footer p
+{
+	text-align: right;
+	margin-right: 30px;
+	text-shadow: 2px 1px black;
+}
